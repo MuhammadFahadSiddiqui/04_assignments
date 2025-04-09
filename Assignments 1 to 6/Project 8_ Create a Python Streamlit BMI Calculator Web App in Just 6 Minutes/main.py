@@ -4,10 +4,6 @@ import streamlit as st
 # Set page title
 st.set_page_config(page_title="BMI Calculator", page_icon="💪", layout="wide")
 
-# Sidebar for the image
-st.sidebar.markdown('<h1 class="title">BMI Calculator</h1>', unsafe_allow_html=True)
-st.sidebar.image("dumbbell.png", use_container_width=True)
-
 # Main content area (Centering the process)
 st.markdown(
     """
